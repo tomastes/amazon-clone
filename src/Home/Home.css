@@ -1,0 +1,25 @@
+.home{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  background-color: rgba(241, 241, 241, 0.788);
+}
+.home_image {
+  width: 100%;
+
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) ,rgba(0,0,0,0));
+  margin-bottom: -150px;
+  z-index: -1;
+
+}
+
+.product_row{
+  z-index: 1;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 5px;
+margin: 5px;
+
+
+}

@@ -1,0 +1,29 @@
+.checkout{
+    display: flex;
+
+}
+
+.checkout_left{
+    width: 70%;
+}
+.checkout_right{
+    background-color: rgba(175, 175, 175, 0.397);
+    width: 300px;
+    height: 140px;
+    margin: 20px 20px;
+    padding: .5rem;
+}
+
+.subTotal{
+  display: flex;
+
+}
+.checkout_proceed{
+    margin-top: 3rem;
+    background-color: #f0c14b;
+    outline: none;
+    padding: 7px 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+}

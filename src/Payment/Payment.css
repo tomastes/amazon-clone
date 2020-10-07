@@ -1,0 +1,73 @@
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.payment_Header{
+    display: flex;
+    justify-content: center;
+     background-color: rgba(128, 128, 128, 0.363);
+     padding: 1rem .5rem;
+}
+.delivery_adress{
+    display: flex;
+    align-items: center;
+   padding: 2rem 2rem;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+   
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.payment_item{
+    display: flex;
+    align-items: center;
+    padding:  2rem 2rem;
+
+}
+.payment_item > h2{
+    flex: 0.4;
+}
+.payment_item > .item{
+    flex: 0.6;
+}
+.items{
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+    flex-direction: column;
+}
+.items > img{
+    max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+.item_details > button
+{
+    background-color: #febd68;
+    border: none;
+
+
+      padding: .2rem 1rem;
+    cursor: pointer;
+    outline: none;
+
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .payment_section{
+      display: flex;
+      align-items: center;
+      padding:  2rem 2rem;
+  }
+  .payment_section > h2{
+      flex: .4;
+  }
+  .payment_section > .payment_details{
+      flex: .6;
+  }
+  .payment_priceContainer{
+      
+  }

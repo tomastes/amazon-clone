@@ -1,0 +1,22 @@
+.login_div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  border: 1px solid grey;
+  margin: auto;
+  width: 400px;
+  margin: 2rem auto;
+}
+.form_login {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  padding: 1rem 0;
+}

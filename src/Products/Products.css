@@ -1,0 +1,38 @@
+.products {
+  background-color: white;
+  display: flex;
+}
+
+.product_item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.product_info {
+  margin-bottom: 15px;
+  padding: 5px 0 0 5px;
+}
+.product_rating {
+  display: flex;
+  width: 60%;
+}
+.product_item > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.product_item > button {
+  background-color: #febd68;
+  border: none;
+width: 60%;
+  margin-left: 20%;
+    padding: .5rem 1rem;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 7px;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
